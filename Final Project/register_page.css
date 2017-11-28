@@ -1,0 +1,78 @@
+legend{
+	background-color: #EBF4FB ;
+   margin: 0 auto;
+   width: 70%;
+   padding: 0.25em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 100%;
+}
+
+table{
+	margin-left: 20%;
+	width:60%;
+	align-content: center;
+	border-style:double;
+	padding-bottom: 30px;
+}
+table tr{
+	width:100%;
+}
+
+a{
+	color:#ff0505;
+}
+
+p{
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+p.selection{
+	margin-left: 23%;
+}
+.register_username
+{	
+	margin-left: 5px;
+	width:80%;
+	height:30px;
+
+}
+
+.register_password
+{	
+	margin-left: 10px;
+	width:80%;
+	height:30px;
+
+}
+
+.register_confirm{
+	margin-left: 10px;
+	width:72%;
+	height:30px;
+}
+.monthly_income{
+	margin-left: 10px;
+}
+.submit{
+	margin-left: 50%;
+	align-content: center;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border-color: #5d60c6;
+}
+
+.reset{
+	border-radius: 5px;
+	background-color: #ffffff;
+	border-color: #5d60c6;
+}
+.blink{
+	border-color: #FE0101;
+}
+.cancel{
+	border-radius: 5px;
+	background-color: #ffffff;
+	border-color: #5d60c6;
+}

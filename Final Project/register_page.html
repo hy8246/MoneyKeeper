@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="register_page.css">
+	<script type="text/javascript" src="register_page.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+</head>
+<body>
+	<form id = "register_form" name= "register_form" >
+		<legend>Register</legend>
+		<table>
+			<tr>
+				<td colspan="3"><p>Username:<input type="text" class="register_username" id="register_username" name="register_username" / ><a> *</a></input></p></td>
+			</tr>
+			<tr>
+				<td>
+					<p class="selection" id="gender">	
+						Gender:
+						<input type="radio" name="gender" value="Male" checked="checked">Male</input>
+						<input type="radio" name="gender" value="Female">Female</input>
+					</p>
+				</td>
+				<td colspan="3">
+					<p>Date of Birth
+					<input type="Date" name="dob" id="register_dob" placeholder="YYYY-MM-DD">
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3"><p>Password:<input type="Password" class="register_password" id="register_password" /><a> *</a></input></p></td>
+			</tr>
+			<tr>
+				<td colspan="3"><p>Confirm Password:<input type="Password" class="register_confirm" name="register_confirm" id="register_confirm"/><a> *</a></input></p></td>
+			</tr>
+			<tr>
+				<td colspan="3"><p>Monthly Income: <input type="number" class="montyly_income" name="monthly_income" id="monthly_income"/><a> *</a></input></p></td>
+			</tr>
+			<tr>
+					<td><input type="button" name="submit" id="submit" class="submit" value="Submit"></td>
+					<td><input type="reset" name="reset" id="reset" class="reset" value="Reset"></td>
+					<td><input type="button" name="cancel" value="Cancel" class="cancel" id="cancel"></td>
+				
+			</tr>
+		</table>	
+
+	</form>
+</body>
+</html>

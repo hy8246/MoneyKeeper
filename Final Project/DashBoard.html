@@ -1,0 +1,92 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="DashBoard.css">
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> 
+<script type="text/javascript" src="DashBoard.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<div class="toolbarbutton">
+		<!-- <button id="Profile_BTN">Profile</button> -->
+		<button id="LogOut_BTN">LogOut</button>
+	</div>
+	<div class="header">
+
+			<img src="img/background2.png" alt="logo" style="height:20%;width: 35%;align-content: center;"/>
+			
+	</div>
+	
+		<table border="0">
+		<tr>
+			<td colspan="3" height="300px">
+				<div id="piechart" class="piechart" style="width: 80%; margin-top: 3%;">
+					
+				</div>
+			</td>		
+			
+		</tr>
+		<tr>
+
+			<td height="20%" width="28%">
+				<form id="IE_InputRetangle" class="IE_InputRetangle">
+							
+						<label style="margin-left: 20%;">Income/Expendit</label><br></br>
+						Amount:  <input type="text" name="amount" id="Amount">$</br>
+						Type:  <select name="type" id="Type">
+	  						<option value="Income">Income</option>
+	  						<option value="Expense">Expense</option>
+	  						</select></br>
+						Category:  <select name="category" id="Category">
+	  						<option value="Clothes">Clothes</option>
+	  						<option value="Food">Food</option>
+	  						<option value="Fees">Fees</option>
+	  						<option value="Luxury">Luxury</option>
+	  						<option value="Commodity">Commodity</option>
+	  						<option value="Other">Other</option>
+						</select></br>
+						Date:  <input type="Date" name="date_of_spend" id="TransactionDate"></br>
+						<input type="button" id="Submit_BTN" value="Submit"></input>	
+						<input type="reset" id="IE_Reset" value="Reset Form">
+				</form>
+			</td>
+			
+			<td width="20%">
+					<form id="MP_InputRetangle" class="MP_InputRetangle">
+					<label style="margin-left: 20%;">Money Saving Plan</label><br></br>
+					Goal:  <input type="text" name="Goal" id="Goal">$</br>
+					Time:  <input type="text" name="GoalTime" id="GoalTime">months</br>
+				<input type="button" id="Plan_BTN" value="Plan"></input>
+					<input type="reset" id="MP_Reset" value="Reset Form">
+				</form>
+
+				
+			</td>
+
+			<td width="60%">
+			<div id="myProgressContainer">
+				<label style="margin-left:35%;">Monthly Plan Status</label>
+				<div id="myProgress">
+					<div id="myBar">0%</div>
+			</div>
+			<label id="NoPlanLabel" style="margin-left:35%; visibility:hidden;">No Plan Availiable</label>
+			<input type="button" id="detail" value="Detail" style="position: relative; float:right;margin-top:5%;margin-right:6%"></input>
+			</td>
+		</tr>
+		<tr> 
+			<td colspan="3">
+				<div id="tablelist">
+				
+				</div>
+			</td>
+		</tr>
+
+		
+	</table>
+</body>
+ </html>
